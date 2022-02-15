@@ -20,12 +20,12 @@ class Calculation:
 ticker = 0
 counter = '*'
 names_and_points = {}
-random = int(input("How many inputs to you have??"))
+random = int(input("How many inputs to you have? "))
 loop_range = random*counter
 
 for i in range(len(loop_range)):
-    name = input('What is the category you want to calculate?')
-    points = float(input(f'Input total points of: {name}: '))
+    name = input('What is the category you want to calculate? ')
+    points = float(input(f'Input total points of {name}: '))
     names_and_points[name] = points 
 
 total_points = sum(names_and_points.values())
