@@ -1,3 +1,6 @@
+
+
+
 class Calculation:
     
     def __init__(self, range1, v1, v2, v3, v4):
@@ -17,7 +20,7 @@ class Calculation:
 ticker = 0
 counter = '*'
 names_and_points = {}
-print('We will split up each point structure into "categories".  Such as exams, hw, final, etc.')
+print('We will split up each point structure into "categories".\nSuch as exams, hw, final, etc.')
 random = int(input("How many categories do you want to calculate?\nInput a number: "))
 loop_range = random*counter
 user_points = []
