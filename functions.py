@@ -23,3 +23,5 @@ def intro():
             sum_dict[f'SUM {ticker2}'] = sum(list_arrays[i])
         print("your sums are as follows:")
         print(sum_dict)
+    else:
+        pass
