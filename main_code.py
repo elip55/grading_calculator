@@ -1,5 +1,5 @@
 
-
+from functions import intro
 
 class Calculation:
     
@@ -17,16 +17,18 @@ class Calculation:
 
 # ----------------------------------------------
 
-ticker = 0
+
+ticker3 = 0
 counter = '*'
 names_and_points = {}
+intro()
 print('We will split up each point structure into "categories".\nSuch as exams, hw, final, etc.')
 random = int(input("How many categories do you want to calculate?\nInput a number: "))
 loop_range = random*counter
 user_points = []
 for i in range(len(loop_range)):
-    ticker += 1
-    name = input(f'Please input the name of category {ticker}: ')
+    ticker3 += 1
+    name = input(f'Please input the name of category {ticker3}: ')
     points = float(input(f'Input total points possible of {name}: '))
     user_attained = float(input(f'How many points have you attained on {name}: '))
     names_and_points[name] = points 
